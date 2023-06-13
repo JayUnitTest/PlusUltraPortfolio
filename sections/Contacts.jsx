@@ -1,9 +1,9 @@
 'use client';
 
-const WhatsNew = () => (
+const Contacts = () => (
   <section>
     What's new section
   </section>
 );
 
-export default WhatsNew;
+export default Contacts;

@@ -1,9 +1,9 @@
 'use client';
 
-const Explore = () => (
+const Tech = () => (
   <section>
     Explore section
   </section>
 );
 
-export default Explore;
+export default Tech;
