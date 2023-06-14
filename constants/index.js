@@ -3,26 +3,31 @@ export const projectExplore = [
     id: 'project-1',
     imgUrl: '/planet-01.png',
     title: 'E-commerce App',
+    link: 'https://github.com/JayUnitTest/php-laravel-ecommerce',
   },
   {
     id: 'project-2',
     imgUrl: '/filmfiendsSC.png',
     title: 'Film-Fiends',
+    link: 'https://github.com/JayUnitTest/filmfiends',
   },
   {
     id: 'project-3',
     imgUrl: '/otbnotarySC.png',
     title: 'OTB-Notary',
+    link: 'https://github.com/JayUnitTest/OTBNotary',
   },
   {
     id: 'project-4',
     imgUrl: '/planet-04.png',
     title: 'Math Quiz App',
+    link: 'https://github.com/JayUnitTest/KS1QuizApp',
   },
   {
     id: 'project-5',
     imgUrl: '/planet-05.png',
     title: 'Portfolio Website',
+    link: 'https://github.com/JayUnitTest/PlusUltraPortfolio',
   },
 ];
 

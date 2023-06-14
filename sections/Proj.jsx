@@ -2,7 +2,7 @@
 
 const Proj = () => (
   <section>
-    World section
+    Proj sectiom
   </section>
 );
 
