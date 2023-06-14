@@ -1,5 +1,5 @@
 import { Footer, Navbar } from '../components';
-import { About, Feedback, Projects, Hero, Insights, Contacts, World } from '../sections';
+import { About, Projects, Hero, Contacts } from '../sections';
 import Tech from '../sections/Tech';
 
 const Page = () => (
@@ -15,10 +15,9 @@ const Page = () => (
       <Projects />
       <div className="gradient-04 z-0" />
       <Contacts />
+      <div className="gradient-03 z-0" />
     </div>
-    <World />
-    <Insights />
-    <Feedback />
+    <div className="gradient-04 z-0" />
     <Footer />
   </div>
 );

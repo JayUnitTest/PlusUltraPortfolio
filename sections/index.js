@@ -4,7 +4,7 @@ import Projects from './Projects';
 import Tech from './Tech';
 import GetStarted from './GetStarted';
 import Contacts from './Contacts';
-import World from './World';
+import Proj from './Proj';
 import Insights from './Insights';
 import Feedback from './Feedback';
 
@@ -15,7 +15,7 @@ export {
   Projects,
   Contacts,
   GetStarted,
-  World,
+  Proj,
   Insights,
   Feedback,
 };
