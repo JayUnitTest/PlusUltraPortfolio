@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -13,28 +13,33 @@ const Hero = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
-          ﹛ Hi! I'm Jay ﹜
-        </motion.h1>
+      <div className="flex flex-col sm:flex-row justify-center items-center relative z-10">
         <motion.div
-          variants={textVariant(1.2)}
-          className="flex flex-row justify-center items-center"
-        />
+          variants={textVariant(1.1)}
+          className="flex-shrink-0 rounded-full overflow-hidden w-48 h-48 sm:w-64 sm:h-64"
+        >
+          <motion.img
+            src="/itsme.jpeg"
+            alt="selfie"
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+        <div className="flex flex-col sm:ml-8 mt-6 sm:mt-0">
+          <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+            ﹛Hi! I'm Jay﹜
+          </motion.h1>
+          <motion.p
+            variants={textVariant(1.2)}
+            className="text-white text-sm flex justify-center mt-8"
+          >
+            Graduate Developer
+          </motion.p>
+        </div>
       </div>
       <motion.div
-        variants={slideIn('right', 'tween', 0.2, 1)}
-        className="relative w-full md:-mt-[12px] -mt-[12px]"
+        variants={textVariant(1.2)}
+        className="flex justify-center mt-8"
       >
-        <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top[30px]" />
-        <img
-          src="/itsme.jpeg"
-          alt="selfie"
-          className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
-        />
-        <div className="absolute top-1/2 right-0 transform -translate-y-1/2 pr-8">
-          <p className="text-white text-sm text-right">graduate developer</p>
-        </div>
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img

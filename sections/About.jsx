@@ -25,7 +25,7 @@ const About = () => (
           {' '}
           computer science graduate{' '}
         </span>
-        with expertise in Java, JavaScript, HTML, CSS, and more. I'm eager to
+        with experience in Java, JavaScript, HTML, CSS, and more. I'm eager to
         take my first steps in the industry, armed with a
         <span className="font-extrabold text-white"> strong foundation </span>
         in software development and a passion for innovation. Please explore my

@@ -38,7 +38,6 @@ const Contacts = () => (
         </div>
       </motion.div>
     </motion.div>
-    What's new section
   </section>
 );
 

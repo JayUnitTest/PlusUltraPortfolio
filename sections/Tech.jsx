@@ -2,7 +2,6 @@
 
 const Tech = () => (
   <section>
-    Explore section
   </section>
 );
 
